@@ -1,5 +1,6 @@
 package com.smilesmile1973.controller;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -15,7 +16,7 @@ public class Utils {
 
 	private void init() throws IOException {
 		Properties prop = new Properties();
-		InputStream in = getClass().getClassLoader().getResourceAsStream(propertiesFileName);
+		InputStream in = new FileInputStream(propertiesFileName);
 		prop.load(in);
 		espeakLocation = prop.getProperty("pathespeak");
 	}
