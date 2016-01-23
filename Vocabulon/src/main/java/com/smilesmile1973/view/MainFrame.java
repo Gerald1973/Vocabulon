@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 import java.io.InputStream;
+import java.net.URISyntaxException;
 import java.net.URL;
 
 import javax.swing.ImageIcon;
@@ -66,16 +67,23 @@ public class MainFrame extends JFrame implements ActionListener {
 		if (command.equals("QUIT")) {
 			this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
 		} else if (command.equals("OPEN")) {
-			JFileChooser fileChooser = new JFileChooser();
-			int returnVal = fileChooser.showOpenDialog(this);
-			if (returnVal == JFileChooser.APPROVE_OPTION) {
-				try {
-					score.setText("");
-					prepareTable(fileChooser.getSelectedFile().getAbsolutePath());
-				} catch (Exception e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
+			JFileChooser fileChooser;
+			try {
+				fileChooser = new JFileChooser(
+						MainFrame.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath());
+				int returnVal = fileChooser.showOpenDialog(this);
+				if (returnVal == JFileChooser.APPROVE_OPTION) {
+					try {
+						score.setText("");
+						prepareTable(fileChooser.getSelectedFile().getAbsolutePath());
+					} catch (Exception e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
 				}
+			} catch (URISyntaxException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
 			}
 		}
 	}
