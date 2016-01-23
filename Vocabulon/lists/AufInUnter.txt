@@ -1,0 +1,10 @@
+Aud In Unter ...
+de|fr
+Mot à traduire|traduction|réponse
+auf|sur
+vor|devant
+unter|dessous
+hinter|derrière
+in|dans
+neben|à côté
+zwischen|entre

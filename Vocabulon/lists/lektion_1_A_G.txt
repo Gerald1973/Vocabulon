@@ -1,0 +1,37 @@
+Lektion 1 A-G
+de|fr
+Mot à traduire|traduction|réponse
+meine Klasse|ma classe
+hier|ici
+nicht|ne...pas
+ich bin|je suis
+ja|oui
+nein|non
+das ist|c'est
+Herr|monsieur
+Frau|madame
+die Kinder|les enfants
+GutenTag!|Bonjour!
+danke|merci
+bitte|s'il vous plaît
+und|et
+du bist|tu es
+Wie heisst du?|Comment tu t'appelles?
+Entshculdigung|pardon
+Ich heisse|je m'appelle
+Gute Nacht|Bonne nuit
+Auf Wiedersehen|Au revoir
+Hilfe|Au secours
+der Papegei|le perroquet
+das ist nett|c'est gentil
+null|zéro
+eins|un
+zwei|deux
+drei|trois
+vier|quatre
+fünf|cinq
+sechs|six
+sieben|sept
+acht|huit
+neun|neuf
+zehn|dix

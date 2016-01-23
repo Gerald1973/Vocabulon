@@ -1,0 +1,24 @@
+Je colle et j'écris les verbes
+fr|de
+Mot à traduire|traduction|réponse
+dormir|schlafen
+rêver|träunen
+se réveiller|aufwachen
+se lever|aufstehen
+duschen|se doucher
+se laver|sich waschen
+s'essuyer|sich abtrocknen
+se brosser les dents|die Zähne putzen
+se peigner|sich kämmen
+jouer d'un instrument|ein instrument spielen
+réfléchir|nachdenken
+écrire|schreiben
+lire|lesen
+effacer|ausradieren
+chanter|singen
+écouter|hören
+s'habiller|sich anziehen
+manger|essen
+se déshabiller|sich ausziehen
+boire|trinken
+attendre|warten
