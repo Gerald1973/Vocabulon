@@ -17,9 +17,9 @@ public class SoundUtil {
 	public static String SUCCEEDSOUND = "succeed";
 	
 	private SoundUtil() {
-		Clip fail = loadSound("/oh-no.wav");
+		Clip fail = loadSound("/sounds/oh-no.wav");
 		sounds.put(FAILSOUND, fail);
-		Clip succeed = loadSound("/yeah.wav");
+		Clip succeed = loadSound("/sounds/yeah.wav");
 		sounds.put(SUCCEEDSOUND, succeed);
 	}
 	

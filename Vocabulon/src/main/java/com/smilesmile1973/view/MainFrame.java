@@ -49,7 +49,7 @@ public class MainFrame extends JFrame implements ActionListener {
 		super();
 		setVisible(true);
 		setTitle(TITLE);
-		URL urlIcon = MainFrame.class.getResource("/icon.png");
+		URL urlIcon = MainFrame.class.getResource("/images/icon.png");
 		ImageIcon icon = new ImageIcon(urlIcon);
 		setIconImage(icon.getImage());
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

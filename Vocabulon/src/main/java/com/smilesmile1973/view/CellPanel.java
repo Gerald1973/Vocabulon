@@ -91,7 +91,7 @@ public class CellPanel extends JPanel {
 		GridBagLayout layout = new GridBagLayout();
 		GridBagConstraints c = new GridBagConstraints();
 		listenButton = new JButton();
-		listenButton.setIcon(new ImageIcon(CellPanel.class.getResource("/speaker.png")));
+		listenButton.setIcon(new ImageIcon(CellPanel.class.getResource("/images/speaker.png")));
 		label = new JLabel();
 		label.setOpaque(true);
 		//label.setBorder(BorderFactory.createLineBorder(Color.BLUE, 5));
