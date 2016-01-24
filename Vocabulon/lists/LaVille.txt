@@ -1,0 +1,28 @@
+La ville
+fr|de
+Mot à traduire|traduction|réponse
+la ville|die Stadt 
+la mairie|das Rathaus 
+le maire|der Bürgermeister 
+la rue|die Strasse 
+étroit|schmal 
+l'architecture contemporaine|die zeitgenössische Architektur 
+l'ambassade|das Botschaftsgebäude 
+la plaque d'égout|der Gullydeckel 
+réservez un hébergement|eine Unterkunft buchen 
+l'hôtel|das Hotel 
+l'auberge de jeunesse|die Jugendherberge 
+la bibliothèque|die Bücherei 
+la librairie|der Buchladen 
+la boutique|der Laden 
+la galerie marchande|die Einkaufspassage 
+faire les magasins|shoppen gehen 
+le monument|die Sehenswürdigkeit 
+la galerie d'art|die Kunstgalerie 
+le cinéma|das Kino 
+le théatre|das Theater 
+l'opéra|das Opernhaus 
+le musée|das Museum 
+visiter|besichtigen 
+découvrir|entdecken 
+impressionnant|beeindruckend 
