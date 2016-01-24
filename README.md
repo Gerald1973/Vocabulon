@@ -7,7 +7,7 @@ This file contains some useful informations to setup vocabulon.
 1. Introduction
 ===============
 
-Vocabulon is a program to help you or your kids to learn other language. This program is
+Vocabulon is a program to help you or your kids to learn other languages. This program is
 configurable in his data files by setting the source language and the destination 
 language.
 
@@ -15,14 +15,14 @@ language.
 ========
 	2.1. Download the program espak from http://espeak.sourceforge.net/download.html
 		2.1.1 If you don't want to reconfigure the program, install it in 
-			C:\\Program Files (x86)\\eSpeak\\command_line\\espeak.exe
+			C:\\Program Files (x86)\\eSpeak\\command_line\\
 			else, if you installed this program in other directory, CHANGE the file 
 			vocabulon.properties by setting the following keys : pathespeak
 			
 			For example :
 			pathespeak=C:\\whatever\\eSpeak\\command_line\\espeak.exe
 			
-			Rem: the "\\" is inhérent to Windows, if you use Linux just use "/".
+			Rem: the "\\" is inherent to Windows, if you use Linux just use "/".
 			
 			I didn't test it under linux, but usually it has work too, because espeak is
 			developed for Windows and Linux.
@@ -37,7 +37,7 @@ language.
 
 3. Data file description.
 ==========================
-	The data file, Vocabulon doesn't take care about the data file extension, but it use his own and 
+	The data file, Vocabulon doesn't take care about the data file extension, but it uses his own and 
 	very simple structure.
 	
 	3.1 Description
@@ -50,10 +50,10 @@ language.
 	
 	The separator is the pipe "|"
 	(a) This line is the title of the window
-	(b) This is line use the ISO Code of the langage in with two letters.
-	    the one on the left indicates the langage ins the left column
-	    the one on the right indicates the langage in the right column
-	(c) the title for the three columns separated by the "|"
+	(b) This is line uses the ISO Code of the language with two letters.
+	    the one on the left indicates the language in the left column
+	    the one on the right indicates the language in the right column
+	(c) the title for the three columns, separated by the "|"
 		In this example: 
 			the title of the first column will be "Mot à traduire" (Word to translate)
 			the title of the second column will be "Traduction" (Translation)
@@ -61,7 +61,7 @@ language.
 			
 	(d) The vocabulary columns, two columns.
 		In this example the word in german is on the left and the word in french is on the right
-		spearated by e pipe "|" without spaces.
+		spearated by a pipe "|" without spaces.
 		
 		
 			
