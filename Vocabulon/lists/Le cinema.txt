@@ -1,0 +1,11 @@
+Le cinéma
+fr|de
+Mot à traduire|traduction|réponse
+le cinéma|das Kino
+la séance|die Kinovorstellung
+le film|der Film
+le programme|das Kinoprogramm
+le sous-titre|der Untertitel
+le ticket|die Kinokarte
+l'acteur|der Schauspieler
+sous-titré|mit Untertitel
