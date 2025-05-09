@@ -103,6 +103,7 @@ public class MainFrame extends JFrame implements ActionListener {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				verifyAnswer();
+				vocabularyTable.repaint();
 			}
 		});
 
@@ -111,6 +112,7 @@ public class MainFrame extends JFrame implements ActionListener {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				verifyAnswer();
+				vocabularyTable.repaint();
 			}
 		});
 
@@ -135,6 +137,12 @@ public class MainFrame extends JFrame implements ActionListener {
 					txtFieldAnswer.setEnabled(true);
 					labelToTranslate.setText(getModel().getTranslations().get(event.getNumber()).getSource());
 					txtFieldAnswer.requestFocus();
+					// Scroll to the current row
+                    int rowIndex = event.getNumber();
+                    if (rowIndex >= 0 && rowIndex + 1 < vocabularyTable.getRowCount()) {
+                        java.awt.Rectangle cellRect = vocabularyTable.getCellRect(rowIndex+1, 0, true);
+                        vocabularyTable.scrollRectToVisible(cellRect);
+                    }
 				}
 			}
 		});

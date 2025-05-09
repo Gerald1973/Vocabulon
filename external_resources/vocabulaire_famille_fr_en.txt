@@ -28,8 +28,6 @@ arrière-grand-père|great-grandfather
 arrière-grand-mère|great-grandmother
 parent|parent
 enfant|child
-jumeau|twin (male)
-jumelle|twin (female)
 fratrie|siblings
 aîné|elder
 cadet|younger
@@ -38,8 +36,8 @@ descendant|descendant
 génération|generation
 ménage|household
 foyer|home
-époux|spouse (male)
-épouse|spouse (female)
+époux|spouse
+épouse|spouse
 fiancé|fiancé
 fiancée|fiancée
 parrain|godfather
