@@ -42,11 +42,6 @@ public class CellEditor extends AbstractCellEditor implements TableCellEditor {
 			cellPanel.setLanguage(getTranslation().getTargetLanguage());
 			cellPanel.processAnswer(getTranslation());
 			break;
-		case 2:
-			cellPanel.setText(getTranslation().getAnswer());
-			cellPanel.setLanguage(getTranslation().getTargetLanguage());
-			cellPanel.setEnabled(getTranslation().isAnswered());
-			break;
 		}
 		return cellPanel;
 	}

@@ -1,9 +1,7 @@
 package com.smilesmile1973.controller;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
 import java.util.Properties;
 
 import org.apache.commons.lang3.StringUtils;
@@ -35,7 +33,6 @@ public enum ESpeakUtils {
 		} catch (Exception e) {
 			String message = "The file \"" + propertiesFileName + "\" has to be in : \n" + path;
 			message = message + "Vocal synhesizer will not be available.";
-			URL url = ESpeakUtils.class.getProtectionDomain().getCodeSource().getLocation();
 			MessageBoxUtils.INSTANCE.showInformationalMessage(message);
 		}
 	}
