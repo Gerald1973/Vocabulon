@@ -1,0 +1,53 @@
+Vocabulaire Famille Français-Anglais
+fr|en
+Français|Anglais
+famille|family
+père|father
+mère|mother
+frère|brother
+sœur|sister
+fils|son
+fille|daughter
+grand-père|grandfather
+grand-mère|grandmother
+oncle|uncle
+tante|aunt
+cousin|cousin (male)
+cousine|cousin (female)
+neveu|nephew
+nièce|niece
+mari|husband
+femme|wife
+beau-père|father-in-law
+belle-mère|mother-in-law
+beau-frère|brother-in-law
+belle-sœur|sister-in-law
+petit-fils|grandson
+petite-fille|granddaughter
+arrière-grand-père|great-grandfather
+arrière-grand-mère|great-grandmother
+parent|parent
+enfant|child
+jumeau|twin (male)
+jumelle|twin (female)
+fratrie|siblings
+aîné|elder
+cadet|younger
+ancêtre|ancestor
+descendant|descendant
+génération|generation
+ménage|household
+foyer|home
+époux|spouse (male)
+épouse|spouse (female)
+fiancé|fiancé
+fiancée|fiancée
+parrain|godfather
+marraine|godmother
+demi-frère|half-brother
+demi-sœur|half-sister
+beau-fils|stepson
+belle-fille|stepdaughter
+adoption|adoption
+héritage|inheritance
+clan|clan

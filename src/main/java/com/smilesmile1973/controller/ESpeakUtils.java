@@ -29,14 +29,14 @@ public enum ESpeakUtils {
 		String path = null;
 		try {
 			path = ESpeakUtils.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
-			InputStream in = new FileInputStream(path + propertiesFileName);
+			InputStream in = ESpeakUtils.class.getResourceAsStream("/" + propertiesFileName);
 			prop.load(in);
 			espeakLocation = prop.getProperty("pathespeak");
 		} catch (Exception e) {
 			String message = "The file \"" + propertiesFileName + "\" has to be in : \n" + path;
 			message = message + "Vocal synhesizer will not be available.";
 			URL url = ESpeakUtils.class.getProtectionDomain().getCodeSource().getLocation();
-			MessageBoxUtils.INSTANCE.showInformationalMessage(message + url.getPath());
+			MessageBoxUtils.INSTANCE.showInformationalMessage(message);
 		}
 	}
 
